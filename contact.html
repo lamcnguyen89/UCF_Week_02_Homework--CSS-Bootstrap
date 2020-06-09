@@ -8,12 +8,69 @@
     <!--CSS Bootstrap Reference-->
     <link 
         rel="stylesheet" 
-        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+        crossorigin="anonymous"
     >
+
+      <!--Local Stylesheet-->
+      <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/styles/styles.css"
+  >
 
 </head>
 <body>
-    
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container headingformats">
+            <a class="navbar-brand" href="#">Lam Nguyen</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-item nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                  <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                  <a class="nav-item nav-link" href="contact.html">Contact</a>
+                </div>
+              </div>
+        </div>
+    </nav>
+
+  
+
+    <main class="container">
+
+        <article class= "row">
+            <article class="col-sm-4">
+                <h1>Contact</h1>
+                <form>
+                    <article class="form-group">
+                      <label for="formGroupExampleInput">Name</label>
+                      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="First Name and Last Name">
+                    </article>
+                    <article class="form-group">
+                      <label for="formGroupExampleInput2">Email</label>
+                      <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Example@gmail.com">
+                    </article>
+                    <article class="form-group">
+                        <label for="formGroupExampleInput2">Message</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter your message here">
+                    </article>
+                  </form>
+            </article>
+        </article>
+
+    </main>
+
+    <footer class="footer bg-light">
+        <div class="container text-center">
+          <p class="pt-3">Copyright&copy 2020, Midnight Machine LLC.</p>
+        </div>
+    </footer>
+
     <!-- JS, Popper.js, and jQuery Bootstrap Reference -->
     <script 
         src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">

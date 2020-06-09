@@ -1,0 +1,26 @@
+
+
+.aboutImg {
+    float: left;
+}
+
+body {
+    background-image: url("../images/Tennis.jpg");
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}
+
+.headingformats {
+
+}
+
+.portfolio img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: left;
+}
