@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,10 +19,11 @@
         type="text/css"
         href="assets/styles/styles.css"
     >
-
 </head>
+
 <body>
 
+    <!--Navigation Bar for webpage. Taken off Bootstrap-->
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container headingformats">
             <a class="navbar-brand" href="#">Lam Nguyen</a>
@@ -41,12 +43,19 @@
 
 
     <main class="container p-2 mb-5">
+         <!--* The portfolio section was arranged using the Bootstrap grid system.
+            * There are 3 rows. In the first 2 rows there are 2 columns. 
+            * In row 3 there is one column. This adds up to 5 elements.
+            * To house the images, Cards are used.
+        -->
 
         <h1 class="headingformats">Portfolio</h1>
         <hr>
-
+       
+        <!--Row 01-->
         <article class="row">
-
+        
+                <!--Row 01 Column 01-->
                 <article class= "col-sm-6 mt-3 p-3">
                     <article class="card">
                         <img 
@@ -54,12 +63,16 @@
                             class="card-img-top img-fluid"
                         >
                         <article class="card-body myLabel">
+                        <!--The class myLabel is used to raise the textbox within the card vertically from the bottom so that it is on top of the image.-->
                            <h5 class="bg title">Project 1</h5> 
                         </article>
                     </article>
                 </article>
+                <!--End Row 01 Column 01-->
 
+                <!--Row 01 Column 02-->
                 <article class= "col-sm-6 mt-3 p-3">
+                
                     <article class="card">
                         <img 
                             src="assets/images/black_rose.jpg"
@@ -70,9 +83,15 @@
                         </article>
                     </article>
                 </article>
+                <!--End Row 01 Column 02-->
 
         </article>
+        <!--End Row 01-->
+
         <article class="row">
+        <!--Row 02-->
+
+                <!--Row 02 Column 01-->
                 <article class= "col-sm-6">
                     <article class="card">
                         <img 
@@ -84,7 +103,9 @@
                         </article>
                     </article>
                 </article>
+                <!--End Row 02 Column 01-->
 
+                <!--Row 02 Column 02-->
                 <article class= "col-sm-6">
                     <article class="card">
                         <img 
@@ -96,9 +117,14 @@
                         </article>
                     </article>
                 </article>
+                <!--End Row 02 Column 02-->
         </article>
+        <!--End Row 02-->
+
+        <!--Row 03-->
         <article class="row">
 
+                <!--Row 03 Column 01-->
                 <article class= "col-sm-6">
                     <article class="card">
                         <img 
@@ -110,9 +136,10 @@
                         </article>
                     </article>
                 </article>
+                <!--End Row 03 Column 01-->
 
         </article>    
-
+        <!--End Row 03-->
     </main>
 
 
@@ -127,13 +154,16 @@
     
     <!-- JS, Popper.js, and jQuery Bootstrap Reference -->
     <script 
-        src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+        crossorigin="anonymous">
     </script>
     <script 
-        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+        crossorigin="anonymous">
     </script>
     <script 
-        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" 
+        crossorigin="anonymous">
     </script>
 
 </body>

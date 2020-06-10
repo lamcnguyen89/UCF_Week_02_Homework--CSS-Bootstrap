@@ -24,9 +24,10 @@ footer {
 
 h1,h2,h3,h4,h5 {
     text-align: center;
-
 }
 
+/*myLabel is a class used to elevate the labels for
+ the images nested in cards in portfolio.html.  */
 .myLabel{ 
     background-color: rgba(255, 255, 255, 0.5);
     position: absolute;
@@ -35,6 +36,7 @@ h1,h2,h3,h4,h5 {
     padding: 0px;
 }
 
+/* .card is a class used in portfolio.html */
 .card {
     margin-top: 20px;
     margin-bottom: 15px;
