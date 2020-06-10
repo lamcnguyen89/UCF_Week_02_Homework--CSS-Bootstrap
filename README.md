@@ -2,7 +2,7 @@
 
 This is the homework for week 2 where we use the Bootstrap CSS library to create a web page showing our Web Development Portfolio. Bootstrap contains a large amount of premade CSS styles compiled into a library to make website building more efficient.
 
-The purpose of this assignment is to become aquainted with the use of the CSS Library Bootstrap in combination with HTML and CSS to create a website for the first time in this class
+The purpose of this assignment is to become aquainted with the use of the CSS Library Bootstrap in combination with HTML and CSS to create a website for the first time in this class.
 
 ### Prerequisites and Deployment
 
