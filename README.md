@@ -22,3 +22,7 @@ The purpose of this assignment is to become aquainted with the use of the CSS Li
 
 There is no license with this homework assignment
 
+## Screenshots
+
+![Portfolio Page Desktop Sized](/assets/images/Portfolio_01.png)
+![Portfolio Page Mobile Sized](/assets/images/Portfolio_02.png)

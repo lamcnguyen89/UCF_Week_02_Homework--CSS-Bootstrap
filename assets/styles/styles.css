@@ -6,6 +6,7 @@ main, footer, nav {
     background-color: rgba(238, 196, 11, 0.7);
 }
 
+
 footer {
     position: fixed;
     bottom: 0;
@@ -18,8 +19,8 @@ footer {
 }
 
 .container {
-    width: 60%;
     margin-top: 20px;
+    width: 60%;
 }
 
 h1,h2,h3,h4,h5 {
