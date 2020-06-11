@@ -24,5 +24,5 @@ There is no license with this homework assignment
 
 ## Screenshots
 
-![](assets/images/Portfolio_01.png)
-![](assets/images/Portfolio_02.png)
+![Portfolio image desktop sized](assets/images/Portfolio_01.png)
+![portfolio image mobile sized](assets/images/Portfolio_02.png)
