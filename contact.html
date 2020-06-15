@@ -19,10 +19,11 @@
       type="text/css"
       href="assets/styles/styles.css"
   >
-
 </head>
+
 <body>
 
+   <!-- Navigation Bar for webpage taken off Bootstrap -->
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container headingformats">
             <a class="navbar-brand" href="#">Lam Nguyen</a>
@@ -40,14 +41,15 @@
     </nav>
 
   
-
+    <!-- This section contains the html for the contact form. 
+        The formatting for this form was taken off Bootstrap. -->
     <main class="container p-2 my-4">
 
       <h1 class="headingformats">Contact</h1>
       <hr>
 
         <article class= "row justify-content-center">
-            <article class="col-sm-4">
+            <article class="col-sm-12">
                 <form>
                     <article class="form-group">
                       <label for="formGroupExampleInput">Name</label>
@@ -61,6 +63,7 @@
                       <label for="exampleFormControlTextarea1">Message</label>
                       <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Enter your message here."></textarea>
                     </article>
+                    <button type="submit" class="btn btn-primary mb-2">Submit</button>
                     
                   </form>
             </article>
